@@ -1,12 +1,237 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="./client/assets/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>project!</title>
 
-    <link href="./styles/index.css" rel="stylesheet" />
-  </head>
-  <body></body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://kit.fontawesome.com/00e4c1fa09.js" crossorigin="anonymous"></script>
+  <title>Amazon Navigation Bar</title>
+  <link rel="stylesheet" href="./styles/index.css" />
+</head>
+
+<body>
+  <header>
+    <!-- nav bar -->
+    <div class="navbar-main">
+      <div class="nav-left">
+        <div class="nav-logo">
+          <a href="/">
+            <img src="./images/logo.png" alt="Amazon Logo" />
+          </a>
+        </div>
+        <div class="nav-location">
+          <div class="location-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="location-content">
+            <span class="nav-line-1">Delivery to</span>
+            <span class="nav-line-2">Belgium</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-fill">
+        <div class="nav-search">
+          <div class="nav-search-dropdown-card">
+            <select class="nav-search-dropdown">
+              <option selected>All</option>
+              <option>Electronic devices</option>
+              <option>Kitchen</option>
+              <option>Books</option>
+              <option>Fashion</option>
+            </select>
+          </div>
+          <div class="nav-search-field">
+            <input type="text" class="nav-input" />
+          </div>
+          <div class="nav-search-submit">
+            <button class="nav-search-submit-button" type="button" aria-label="search">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="nav-right">
+        <div class="nav-language">
+          <div class="nav-icon">🌐</div>
+          <span>🇺🇸 En</span>
+          <span class="nav-arrow">▼</span>
+        </div>
+
+        <div class="nav-account">
+          <span class="nav-line-1">Hello, Log in</span>
+          <span class="nav-line-2">Account &amp;Lists</span>
+          <span class="nav-arrow">▼</span>
+        </div>
+
+        <div class="nav-orders">
+          <span class="nav-line-1">Returns</span>
+          <span class="nav-line-2">&amp; orders</span>
+        </div>
+
+        <div class="nav-cart">
+          <div class="nav-cart-icon">🛒</div>
+          <div class="nav-cart-count">0</div>
+          <span class="nav-cart-text">Shopping cart</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="navbar-secondary">
+      <div class="nav-hamburger">
+        <span class="hamburger-icon">☰</span>
+        <span>All</span>
+      </div>
+
+      <div class="nav-main-menu">
+        <a href="#" class="nav-link">Today's deals</a>
+        <a href="#" class="nav-link">Customer service</a>
+        <a href="#" class="nav-link">Gift registry</a>
+        <a href="#" class="nav-link">Gift cards</a>
+        <a href="#" class="nav-link">Sell</a>
+      </div>
+
+      <div class="nav-deals">
+        <a href="#" class="nav-link-deals">Great deals</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero">
+      <button class="slider-btn left-btn">
+        < </button>
+          <button class="slider-btn right-btn">></button>
+          <div class="slider">
+            <div class="slides">
+              <div class="slide" id="slide1"></div>
+              <div class="slide" id="slide2"></div>
+              <div class="slide" id="slide3"></div>
+            </div>
+          </div>
+    </div>
+    <div class="navigation-dots">
+      <div class="dot active"></div>
+      <div class="dot"></div>
+      <div class="dot"></div>
+    </div>
+    <div class="hero-box">
+      You are on amazon.com You can also shop on Amazon for millions of
+      products with fast local delivery.
+    </div>
+    <div class="shopping">
+      <div class="shop-box">
+        <div class="box-content">
+          <h1>Bathroom Accessories</h1>
+          <img src="./images/GW_CONS_AUS_HPC_HPCEssentials_CatCard_Desktop2x._SY608_CB627424361_.jpg" alt="" />
+          <a href="">See More</a>
+        </div>
+      </div>
+      <div class="shop-box">
+        <div class="box-content">
+          <h1>Furniture</h1>
+          <img src="./images/box3_image.jpg" alt="" />
+          <a href="">See More</a>
+        </div>
+      </div>
+      <div class="shop-box">
+        <div class="box-content">
+          <h1>Mobile Phones</h1>
+          <img src="./images/box4_image.jpg" alt="" />
+          <a href="">See More</a>
+        </div>
+      </div>
+      <div class="shop-box">
+        <div class="box-content">
+          <h1>Make up</h1>
+          <img src="./images/box5_image.jpg" alt="" />
+          <a href="">See More</a>
+        </div>
+      </div>
+      <div class="shop-box">
+        <div class="box-content">
+          <h1>Pet Shop</h1>
+          <img src="./images/box6_image.jpg" alt="" />
+          <a href="">See More</a>
+        </div>
+      </div>
+      <div class="shop-box">
+        <div class="box-content">
+          <h1>Stationary</h1>
+          <img src="./images/box7_image.jpg" alt="" />
+          <a href="">See More</a>
+        </div>
+      </div>
+      <div class="shop-box">
+        <div class="box-content">
+          <h1>Garments</h1>
+          <img src="./images/box8_image.jpg" alt="" />
+          <a href="">See More</a>
+        </div>
+      </div>
+      <div class="shop-box">
+        <div class="box-content">
+          <h1>Electronic Accessories</h1>
+          <img src="./images/Fuji_Dash_Electronics_2x._SY608_CB432774322_.jpg" alt="" />
+          <a href="">See More</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="top">
+      <a href="#Navigation">Back to Top</a>
+    </div>
+    <div class="customer-footer">
+      <div class="cust1">
+        <p class="cust-first">Get to Know Us</p>
+        <p class="cust-second">Career</p>
+        <p class="cust-second">Blog</p>
+        <p class="cust-second">About Amazon</p>
+        <p class="cust-second">Investor Relations</p>
+        <p class="cust-second">Amazon Devices</p>
+        <p class="cust-second">Amazon Science</p>
+      </div>
+      <div class="cust1">
+        <p class="cust-first">Get to Know Us</p>
+        <p class="cust-second">Career</p>
+        <p class="cust-second">Blog</p>
+        <p class="cust-second">About Amazon</p>
+        <p class="cust-second">Investor Relations</p>
+        <p class="cust-second">Amazon Devices</p>
+        <p class="cust-second">Amazon Science</p>
+      </div>
+      <div class="cust1">
+        <p class="cust-first">Get to Know Us</p>
+        <p class="cust-second">Career</p>
+        <p class="cust-second">Blog</p>
+        <p class="cust-second">About Amazon</p>
+        <p class="cust-second">Investor Relations</p>
+        <p class="cust-second">Amazon Devices</p>
+        <p class="cust-second">Amazon Science</p>
+      </div>
+      <div class="cust1">
+        <p class="cust-first">Get to Know Us</p>
+        <p class="cust-second">Career</p>
+        <p class="cust-second">Blog</p>
+        <p class="cust-second">About Amazon</p>
+        <p class="cust-second">Investor Relations</p>
+        <p class="cust-second">Amazon Devices</p>
+        <p class="cust-second">Amazon Science</p>
+      </div>
+      <div class="cust1">
+        <p class="cust-first">Get to Know Us</p>
+        <p class="cust-second">Career</p>
+        <p class="cust-second">Blog</p>
+        <p class="cust-second">About Amazon</p>
+        <p class="cust-second">Investor Relations</p>
+        <p class="cust-second">Amazon Devices</p>
+        <p class="cust-second">Amazon Science</p>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
